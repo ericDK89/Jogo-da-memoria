@@ -13,7 +13,7 @@ body {
     background-color: #c7cdd3;
 }
 
-#board {
+#gameBoard {
     max-width: 800px;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
@@ -53,10 +53,9 @@ body {
     /* display: none; */
 }
 
-
-/* .flip {
+.flip {
     transform: rotateY(180deg);
-} */
+}
 
 #gameOver {
     position: absolute;
