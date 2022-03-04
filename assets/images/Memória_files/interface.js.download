@@ -1,0 +1,5 @@
+function flip() {
+    let flip = document.querySelector('#queijo')
+
+    flip.innerHTML = `<div class=${flip}></div>`
+}
